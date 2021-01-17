@@ -1,27 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="CSS/styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Welcome to Kokoa Talk</title>
 </head>
 <body>
-    <div id = "status-bar">
+
+    <div class = "status-bar">
         <div class ="status-bar__column"> 
             <span> No Service </span> 
             <i class="fas fa-wifi"></i>
-            
-         </div>
+            </div>
         <div class ="status-bar__column"> 
             <span> 18:43 </span>
          </div>
          <div class ="status-bar__column"> 
-            <span> 110% </span> 
-            <i class="fas fa-battery-quarter"></i>
+            <span> 23% </span> 
+            <i class="fas fa-battery-quarter fa-lg"></i>
             <i class="fas fa-bolt"></i>
         </div>
+     </div>
 
-    </div>
+     <header class ="welcome-header">
+         <h1 class ="welcome-header__title">Welcome to Kokoa Clone</h1>
+         <p class ="welcome-header__text">If you have a Kokoa Account, 
+             log in with your Account </p>
+    </header>
+
+<!--
+form의 action은 해당 데이터를 어디로 보낼지, 
+method는 어떤방식으로 보낼지를 결정한다.
+method는 post와 get이 있는데, post는 백엔드 서버로 보내기 때문에 지금은  쓸 수 없고,
+get을 쓸 수 있다. 
+get은 url에 정보가 포함되어도 상관없는 것들을 전송하는 보안에 취약한 방식이다.
+
+-->
+
+    <form  action="friends.html" method="get" class ="login-form">
+        <input name="username" type="text" placeholder ="Email or Phone numver"/>
+        <input name="password" type="password" placeholder ="Password"/>
+        <input type="submit" value ="Lon In"/>
+        <input type="submit" value ="Sign up"/>
+        <a href = "#">Find Kokoa Account or Password</a>
+    </form>
+    
+    
+
         <script src="https://kit.fontawesome.com/308d2a6d65.js" crossorigin="anonymous"></script>
 </body>
 </html>
