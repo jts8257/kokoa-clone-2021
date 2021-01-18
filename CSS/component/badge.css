@@ -1,0 +1,18 @@
+.badge {
+  background-color: tomato;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 100;
+}
+
+.badge-samll {
+  background-color: tomato;
+  width: 7.5px;
+  height: 7.5px;
+  border-radius: 50%;
+}

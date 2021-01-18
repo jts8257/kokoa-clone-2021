@@ -13,6 +13,17 @@
   font-weight: 600;
 }
 
-.screen-header__icons span {
-  margin-left: 25px;
+.screen-header__icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.screen-header__icons div {
+  margin-left: 15px;
+}
+
+.screen_notification {
+  position: relative;
+  top: -25px;
+  right: -17px;
 }
