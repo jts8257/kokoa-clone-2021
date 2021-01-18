@@ -1,7 +1,7 @@
 @import "variables.cc";
 
 .welcome-header {
-  margin-top: 90px;
+  margin-top: 30px;
   margin-bottom: 90px;
   text-align: center;
   display: flex;
