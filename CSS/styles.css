@@ -11,10 +11,12 @@
 @import "component/screen-header.css";
 @import "component/user.css";
 @import "component/badge.css";
+@import "component/icon-row.css";
 
 /*screen*/
 @import "screen/friend.css";
 @import "screen/find.css";
+@import "screen/more.css";
 
 body {
   color: #2e363e;

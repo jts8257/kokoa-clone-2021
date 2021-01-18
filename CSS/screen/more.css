@@ -1,0 +1,12 @@
+.user-more {
+  margin-bottom: 30px;
+}
+
+.more-suggestion {
+  margin-top: 50px;
+  border-top: var(--main-border);
+  padding-top: 40px;
+}
+.more-suggestion__title {
+  margin-bottom: 30px;
+}
