@@ -35,3 +35,58 @@
   font-size: 18px;
   color: var(--grey);
 }
+
+.open-chat__header {
+  display: flex;
+  justify-content: space-between;
+  opacity: 0.8;
+  margin-bottom: 25px;
+}
+
+.open-chat__header span {
+  color: var(--grey);
+}
+
+.open-post {
+  display: flex;
+  flex-direction: column;
+}
+
+.opne_post__title {
+  font-weight: 600;
+  margin: 7px 0px;
+}
+
+.opne_post__hash {
+  text-transform: uppercase;
+  opacity: 0.5;
+}
+
+.open_post__members {
+  display: flex;
+  align-items: center;
+  margin-top: 7px;
+}
+
+.open_post__members img {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.open_post__members-count {
+  opacity: 0.5;
+  font-size: 14px;
+}
+
+.open_post__members .divider {
+  width: 1px;
+  height: 10px;
+  background-color: var(--grey);
+  margin: 0px 5px;
+}
+
+.open_post__members-status {
+  color: #ffb0c0;
+}
