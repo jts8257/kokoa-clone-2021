@@ -13,6 +13,7 @@
 @import "component/user.css";
 @import "component/badge.css";
 @import "component/icon-row.css";
+@import "component/no-mobile.css";
 
 /*screen*/
 @import "screen/friend.css";
